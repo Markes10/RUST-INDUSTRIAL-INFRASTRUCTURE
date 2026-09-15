@@ -1,4 +1,4 @@
-# 33 - Zero-Copy Industrial Modbus Protocol Gateway (Rust)
+# Zero-Copy Industrial Modbus Protocol Gateway (Rust)
 
 ## Executive Overview
 A high-throughput, memory-safe industrial IoT gateway written in **Rust (1.70+)**. It implements **zero-copy deserialization** of binary Modbus TCP MBAP headers and PDU frames using lifetime-bound byte slices (`&'a [u8]`), strictly avoiding heap allocations, and validates packet integrity with a hardware-accelerated **CRC-16** algorithm.
