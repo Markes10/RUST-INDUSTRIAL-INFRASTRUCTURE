@@ -1,0 +1,8 @@
+{
+  "id": "33",
+  "name": "33-rust-industrial-infrastructure",
+  "title": "Memory-Safe Industrial Infrastructure Platform",
+  "language": "Rust",
+  "domain": "Systems Programming & Industrial Protocol Gateways",
+  "description": "High-throughput, memory-safe Rust industrial streaming gateway featuring zero-copy Modbus/OPC-UA binary packet parsing, CRC16 verification, and lock-free telemetry queues."
+}
